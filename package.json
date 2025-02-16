@@ -1,20 +1,25 @@
 {
-  "name": "gitprojects1",
+  "name": "gaming-gear",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://github.com/adlanehzx/GitProjectS1#readme",
+  "homepage": "https://github.com/adlanehzx/gaming-gear#readme",
   "bugs": {
-    "url": "https://github.com/adlanehzx/GitProjectS1/issues"
+    "url": "https://github.com/adlanehzx/gaming-gear/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/adlanehzx/GitProjectS1.git"
+    "url": "git+https://github.com/adlanehzx/gaming-gear.git"
   },
   "license": "ISC",
   "author": "",
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "eslint": "^9.20.1",
+    "globals": "^15.15.0"
   }
 }

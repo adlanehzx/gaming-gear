@@ -1,0 +1,11 @@
+#!/bin/sh
+
+npm run lint
+
+RESULT=$?
+if [ $RESULT -ne 0 ]; then
+  echo "Eslint failed, please fix the issues before committing."
+  exit 1
+fi
+
+exit 0

@@ -1,8 +1,17 @@
+# IDE configs
+.idea
+.vscode
+
+# local artifacts
+dist/
+build/
+
 # node 
 node_modules/
 
-
-#logs   
-
+# logs
 logs
 *.log
+
+# linter files
+.eslintcache
